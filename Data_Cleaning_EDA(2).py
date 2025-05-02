@@ -3,8 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the Titanic dataset (replace with the path to your local CSV if needed)
-url = 'https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv'
 df = pd.read_csv(url)
 
 # Display first few rows
